@@ -1,4 +1,4 @@
-FROM linuxserver/transmission:arm64v8-latest
+FROM linuxserver/transmission:arm32v7-latest
 LABEL maintainer="qdii"
 
 RUN apk add --no-cache sed
